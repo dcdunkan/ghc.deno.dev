@@ -1,0 +1,16 @@
+-- GitHub Content --
+
+Nothing special. No redirects. For Deno.
+It's a replacer for https://raw.githubusercontent.com ._.
+
+URL Format:
+https://ghc.deno.dev/owner/repository@version-or-branch/file/path.ts
+
+Version/branch is optional, if none provided, gets latest tag or default branch if no tags found.
+
+Example URLs:
+- Branch: https://ghc.deno.dev/dcdunkan/tgdb@main/src/index.ts
+- Tag (version): https://ghc.deno.dev/grammyjs/grammY@v1.9.0/src/mod.ts
+- Redirect to latest tag: https://ghc.deno.dev/grammyjs/grammY/src/mod.ts
+
+Created while wasting time <3
