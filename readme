@@ -4,7 +4,7 @@ Nothing special. No redirects. For Deno.
 It's a replacer for https://raw.githubusercontent.com ._.
 
 URL Format:
-https://ghc.deno.dev/owner/repository@version-or-branch/file/path.ts
+https://ghc.deno.dev/owner/repository@version-or-branch-or-commit/file/path.ts
 
 Version/branch is optional, if none provided, gets latest tag or default branch if no tags found.
 
@@ -12,5 +12,8 @@ Example URLs:
 - Branch: https://ghc.deno.dev/dcdunkan/tgdb@main/src/index.ts
 - Tag (version): https://ghc.deno.dev/grammyjs/grammY@v1.9.0/src/mod.ts
 - Redirect to latest tag: https://ghc.deno.dev/grammyjs/grammY/src/mod.ts
+- Commit hash: https://ghc.deno.dev/tbjgolden/deno-htmlparser2@1f76cdf/htmlparser2/Parser.ts
+- Commit ID: https://ghc.deno.dev/tbjgolden/deno-htmlparser2@1f76cdfdb295b667ff83cf8e4559084cbfb4a359/htmlparser2/Parser.ts
+- ...or whatever that you can use in a raw.githubusercontent.com link.
 
 Related: https://github.com/dcdunkan/dcdunkan.deno.dev (User edition)
